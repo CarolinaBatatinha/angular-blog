@@ -2,7 +2,7 @@
 
   <div class="big-card__photo">
     <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTC3r7lbpNaJPxC7tZ_VOyzzaGchVonTvhgTkjxogOWqEvO2pK4WWDqvWWVTWChhOjfv0&usqp=CAU"
+    src="{{ photoCover }}"
     alt=""
     height="200px"
     >
@@ -11,12 +11,12 @@
   <div class="big-card__title">
     <h1>
       <a href="#">
-        Saiu a nova versão do Angular
+        {{ cardTitle }}
       </a>
     </h1>
   </div>
 
   <div class="big-card__description">
-    <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magnam ad deserunt pariatur corporis exercitationem debitis aliquid nulla eos consectetur, autem porro eius, impedit illum dicta sunt iste ducimus doloremque?</a></p>
+    <p><a href="#">{{ cardDescription }}</a></p>
   </div>
 </div>
